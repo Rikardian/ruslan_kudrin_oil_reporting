@@ -14,25 +14,18 @@ public class OilProductionEntity {
     @Id
     private Long oilProductionId;
 
-    private String wayName;
+    private String operatingMethods;
 
-    private int standardPumpsCount;
+    private int yearProductionId;
 
-    private int electricPumpsCount;
+    private int countedMonthId;
 
-    private int compressorCount;
+    private int uncountedMonthId;
 
-    private int otherMethodsCount;
+    private int averageFlowRate;
 
-    private int totalCount;
+    private int numberOfWells;
 
-    private int oldWellsCount;
+    private int extractedFromWells;
 
-    private int lastYearsWellsCount;
-
-    private int newWellsCount;
-
-    private int randomOilProduction;
-
-    private int explorationWellCount;
 }

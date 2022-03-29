@@ -9,7 +9,7 @@ import javax.persistence.Id;
 @Entity
 @NoArgsConstructor
 @Data
-public class CommissioningOfWells {
+public class CommissioningOfWellsEntity {
 
     @Id
     private long commissioningOfWellsId;
