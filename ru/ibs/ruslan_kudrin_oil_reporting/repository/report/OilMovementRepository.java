@@ -1,4 +1,7 @@
 package ru.ibs.ruslan_kudrin_oil_reporting.repository.report;
 
-public class OilMovementRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import ru.ibs.ruslan_kudrin_oil_reporting.entities.report.OilMovementEntity;
+
+public interface OilMovementRepository extends JpaRepository<OilMovementEntity, Long> {
 }

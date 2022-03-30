@@ -1,4 +1,7 @@
 package ru.ibs.ruslan_kudrin_oil_reporting.repository.report;
 
-public class MainTitleRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import ru.ibs.ruslan_kudrin_oil_reporting.entities.report.MainTitleEntity;
+
+public interface MainTitleRepository extends JpaRepository<MainTitleEntity, Long> {
 }

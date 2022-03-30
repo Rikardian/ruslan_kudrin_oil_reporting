@@ -1,4 +1,7 @@
 package ru.ibs.ruslan_kudrin_oil_reporting.repository.report;
 
-public class OilGasProductionRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import ru.ibs.ruslan_kudrin_oil_reporting.entities.report.OilGasProductionEntity;
+
+public interface OilGasProductionRepository extends JpaRepository<OilGasProductionEntity, Long> {
 }
